@@ -15,7 +15,7 @@ public class NBCrossValidation
     		return;
     	}
 
-		vocabularyList = createList("../CreateVocabulary/vocabulary.txt");
+		vocabularyList = createList("../2CreateVocabulary/vocabulary.txt");
 
     	CrossValidate(args[0]);
 	}
@@ -70,6 +70,7 @@ public class NBCrossValidation
 		avgAccuracy /= 10;
 		System.out.println(avgAccuracy);
 	}
+	
 	private static char pSentiment (String line)
 	{
 		Double pPositive, pNegative;

@@ -19,7 +19,7 @@ public class CreateVocabulary
 
 		Scanner inScanner=null;
 		try {
-			inScanner = new Scanner(new FileInputStream("../RemoveStopWords/cleandata.txt"));
+			inScanner = new Scanner(new FileInputStream("../1RemoveStopWords/cleandata.txt"));
 		} catch (FileNotFoundException e) {
 			System.err.println("cleandata.txt : File Not Found");
 		}
