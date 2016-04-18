@@ -18,7 +18,7 @@ Individual fold accuracies are
 - 9 0.86
 - 10 0.94
 <br>Average Accuracy is **0.882**
-<br>
+
 ##### Part B
 Training : Multinomial Bigram naive bayes model with laplace smoothing<br>
 Evaluation : 10 fold cross validation<br>
